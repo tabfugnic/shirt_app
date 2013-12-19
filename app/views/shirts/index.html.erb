@@ -1,0 +1,5 @@
+<h1>Shirts</h1>
+<% @shirts.each do |shirt| %>
+  <p><%= shirt.name %></p>
+  <%= image_tag shirt.image %>
+<% end %>
